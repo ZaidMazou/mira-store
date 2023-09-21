@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mira-store/static/css/main.82138bc9.css",
+    "main.js": "/mira-store/static/js/main.8b2a439e.js",
+    "static/js/787.140adf91.chunk.js": "/mira-store/static/js/787.140adf91.chunk.js",
+    "index.html": "/mira-store/index.html",
+    "main.82138bc9.css.map": "/mira-store/static/css/main.82138bc9.css.map",
+    "main.8b2a439e.js.map": "/mira-store/static/js/main.8b2a439e.js.map",
+    "787.140adf91.chunk.js.map": "/mira-store/static/js/787.140adf91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82138bc9.css",
+    "static/js/main.8b2a439e.js"
+  ]
+}
