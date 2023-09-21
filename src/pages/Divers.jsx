@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Modal from '../components/Modal';
+import { Link } from 'react-router-dom';
 
 const Divers = () => {
     const [modal, setmodal] = useState(false);
@@ -20,7 +21,7 @@ const Divers = () => {
     return (
         <div className='show'>
             <div className="showImage">
-                <img src="/Mira/IMG-20230919-WA0080.jpg" alt=""  onClick={handlclick}/>
+                <img src="Mira/IMG-20230919-WA0080.jpg" alt=""  onClick={handlclick}/>
                 <img src="Mira/IMG-20230919-WA0079.jpg" alt=""  onClick={handlclick}/>
                 <img src="Mira/IMG-20230919-WA0078.jpg" alt=""  onClick={handlclick}/>
                 <img src="Mira/IMG-20230919-WA0077.jpg" alt=""  onClick={handlclick}/>
@@ -31,7 +32,7 @@ const Divers = () => {
                 <img src="Mira/IMG-20230919-WA0071.jpg" alt=""  onClick={handlclick}/>
             </div>
             <div className='link'>
-                <a href="/category">Retour</a>
+                <Link to="/category">Retour</Link>
             </div>
             { modal && <Modal closeModal={()=>{setmodal(false)}}/>}
         </div>

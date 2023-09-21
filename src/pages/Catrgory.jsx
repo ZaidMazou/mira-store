@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Modal from '../components/Modal';
+import { Link } from 'react-router-dom';
 
 const Catrgory = () => {
     const [modal, setmodal] = useState(false);
@@ -25,10 +26,10 @@ const Catrgory = () => {
             <div className='category'>
                 <div className="cat">
                     <div className="catTitle">
-                        <a href="/category/sac">
+                        <Link to="/category/sac">
                             <img src="Mira/IMG-20230919-WA0103.jpg" alt="" />
                             <p>Sac à main</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="catContent">
                         <img src="Mira/IMG-20230919-WA0088.jpg" alt=""onClick={handlclick}/>
@@ -38,10 +39,10 @@ const Catrgory = () => {
                 </div>
                 <div className="cat">
                     <div className="catTitle">
-                        <a href="/category/lunette">
+                        <Link to="/category/lunette">
                             <img src="Mira/IMG-20230919-WA0111.jpg" alt="" />
                             <p>Lunettes</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="catContent">
                         <img src="Mira/IMG-20230919-WA0115.jpg" alt=""onClick={handlclick}/>
@@ -51,10 +52,10 @@ const Catrgory = () => {
                 </div>
                 <div className="cat">
                     <div className="catTitle">
-                        <a href="/category/divers">
+                        <Link to="/category/divers">
                             <img src="Mira/IMG-20230919-WA0075.jpg" alt="" />
                             <p>Divers</p>
-                        </a>
+                        </Link>
                     </div>
                     <div className="catContent">
                         <img src="Mira/IMG-20230919-WA0078.jpg" alt="" onClick={handlclick}/>

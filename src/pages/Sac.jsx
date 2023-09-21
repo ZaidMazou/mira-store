@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Modal from '../components/Modal';
+import { Link } from 'react-router-dom';
 
 const Sac = () => {
     const [modal, setmodal] = useState(false);
@@ -46,7 +47,7 @@ const Sac = () => {
                 <img src="Mira/IMG-20230919-WA0107.jpg" alt="" onClick={handlclick}/>
             </div>
             <div className='link'>
-                <a href="/category">Retour</a>
+                <Link to="/category">Retour</Link>
             </div>
             { modal && <Modal closeModal={()=>{setmodal(false)}}/>}
         </div>
